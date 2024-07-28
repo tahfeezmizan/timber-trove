@@ -24,8 +24,8 @@ const LatestProduct = () => {
 
                                 {product.discount && <p className="absolute top-5 right-5 rounded-lg text-[10px] py-1 uppercase px-3 font-MochiyPopOne z-10  bg-[#FF3939] text-white">{product.discount}</p>}
 
-                                <div className="w-full h-[334px] overflow-hidden">
-                                    <img className="w-full h-full object-cover transition-transform transform hover:scale-105 duration-500 ease-in-out" src={product.image} alt="" />
+                                <div className="w-full h-[334px] overflow-hidden rounded-lg">
+                                    <img className="w-full h-full object-cover rounded-lg transition-transform transform hover:scale-105 duration-500 ease-in-out" src={product.image} alt="" />
                                 </div>
 
                                 <div className="mt-10 pl-3 pb-5">
