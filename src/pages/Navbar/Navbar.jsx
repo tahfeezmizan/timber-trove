@@ -3,48 +3,55 @@ import { IoMdClose } from "react-icons/io";
 import { IoArrowUpSharp } from "react-icons/io5";
 import { RiMenu3Fill } from "react-icons/ri";
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/logo dark.png";
+import { RiShoppingBagLine } from "react-icons/ri";
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
 
     const links = <>
-        <NavLink to='/'>Home</NavLink>
-        <NavLink to='/'>Shop</NavLink>
-        <NavLink to='/'>Features</NavLink>
-        <NavLink to='/'>Contact</NavLink>
+        <NavLink to='/' className="text-center">Home</NavLink>
+        <NavLink to='/' className="text-center">Shop</NavLink>
+        <NavLink to='/' className="text-center">Features</NavLink>
+        <NavLink to='/' className="text-center">Contact</NavLink>
     </>
 
     return (
-        <div className="bg-white shadow-md md:shadow-none">
-            <div className="container flex justify-between items-center p-4 font-Inter">
+        <div className="bg-PrimaryBg shadow-md md:shadow-none py-4 lg:py-8">
+            <div className="container mx-auto px-4 flex justify-between items-center">
                 <NavLink to={'/'}>
-                    {/* <img src={logo} className="" alt="Logo" /> */}
-                    <h1 className="" >Timber Trove</h1>
+                    <h1 className="text-4xl font-BebasNeue uppercase font-normal">Timber Trove</h1>
                 </NavLink>
 
                 <div className="flex-1 flex justify-center">
-                    <div className={`md:flex gap-8 md:static absolute duration-300 ease-in-out ${open ? 'top-16' : 'top-[-200px]'} right-0 md:right-auto md:bg-transparent bg-white py-10 w-full md:w-auto`}>
+                    <div className={`lg:flex gap-8 lg:static absolute duration-300 ease-in-out ${open ? 'top-16' : 'top-[-200px]'} right-0 lg:right-auto lg:bg-transparent py-5 md:py-5 lg:py-0 bg-PrimaryBg w-full`}>
 
-                        <div className="flex flex-col md:flex-row gap-3 md:gap-6 font-Inter items-center justify-center text-base font-normal">
+                        <div className="flex flex-col lg:flex-row gap-3 md:gap-6 font-MochiyPopOne items-center justify-center text-xl font-normal w-full">
                             {links}
                         </div>
 
                         {open && (
-                            <div className="flex justify-center mt-4 md:hidden">
-                                <button className="text-base font-semibold border border-PrimaryColor px-7 py-2 rounded-xl flex items-center gap-2 hover:bg-yellow-400 hover:border-yellow-400">
-                                    Appointment <span className="rotate-45"><IoArrowUpSharp /></span>
+                            <div className="flex gap-4 items-center justify-center mt-4 lg:hidden">
+                                <div className="text-3xl">
+                                    <RiShoppingBagLine />
+                                </div>
+                                <button className="text-black uppercase text-xl font-MochiyPopOne border-2 border-black px-7 py-2 rounded-md flex items-center gap-2">
+                                    Login
                                 </button>
                             </div>
                         )}
                     </div>
                 </div>
 
-                <button className="hidden md:flex text-base font-semibold border border-PrimaryColor px-7 py-2 rounded-xl items-center gap-2 hover:bg-yellow-400 hover:border-yellow-400">
-                    Appointment <span className="rotate-45"><IoArrowUpSharp /></span>
-                </button>
+                <div className="hidden lg:flex items-center justify-between gap-10">
+                    <div className="text-3xl">
+                        <RiShoppingBagLine />
+                    </div>
+                    <button className="text-black uppercase text-xl font-MochiyPopOne border-2 border-black px-7 py-2 rounded-md items-center gap-2">
+                        Login
+                    </button>
+                </div>
 
-                <div className="text-4xl md:hidden cursor-pointer" onClick={() => setOpen(!open)}>
+                <div className="text-4xl lg:hidden cursor-pointer" onClick={() => setOpen(!open)}>
                     {open ? <IoMdClose /> : <RiMenu3Fill />}
                 </div>
             </div>

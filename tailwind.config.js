@@ -6,19 +6,14 @@ export default {
   ],
   theme: {
     extend: {
-      container: {
-        center: true,
-        padding: '1rem', 
-        screens: {
-          'sm': '100%', 
-          'lg': '1180px', 
-        },
-      },
       fontFamily: {
-        Inter: "'Inter', sans-serif",
+        BebasNeue: "'Bebas Neue', sans-serif",
+        MochiyPopOne: "'Mochiy Pop One', sans-serif",
+        RobotoSlab: "'Roboto Slab', sans-serif",
+        Poppins: "'Poppins', sans-serif",
       },
       colors: {
-        PrimaryColor: "#343268",
+        PrimaryBg: "#E9F4EE",
       },
     },
   },
