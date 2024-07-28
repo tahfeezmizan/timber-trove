@@ -2,53 +2,54 @@
     {
       "productStatus": "hot",
       "discount": "-10%",
-      "image": "https://via.placeholder.com/200x200?text=Chair+1",
+      "image": "https://i.ibb.co/qF69jPc/image-1.jpg",
       "title": "Elegant Wooden Chair",
       "price": "$150",
       "rating": 4.5
     },
     {
-      "image": "https://via.placeholder.com/200x200?text=Sofa+1",
+      "productStatus": "hot",
+      "image": "https://i.ibb.co/XD9yWYf/image-2.jpg",
       "title": "Modern Gray Sofa",
       "price": "$800",
       "rating": 4.7
     },
     {
       "discount": "-10%",
-      "image": "https://via.placeholder.com/200x200?text=Table+1",
+      "image": "https://i.ibb.co/M6jxrpV/image-3.jpg",
       "title": "Classic Oak Table",
       "price": "$300",
       "rating": 4.3
     },
     {
       "productStatus": "hot",
-      "image": "https://via.placeholder.com/200x200?text=Chair+2",
+      "image": "https://i.ibb.co/K92j1M9/image-4.jpg",
       "title": "Comfortable Recliner Chair",
       "price": "$220",
       "rating": 4.8
     },
     {
-      "image": "https://via.placeholder.com/200x200?text=Bed+1",
+      "image": "https://i.ibb.co/RzLjxbg/image-5.jpg",
       "title": "King Size Bed",
       "price": "$1200",
       "rating": 4.9
     },
     {
       "discount": "-10%",
-      "image": "https://via.placeholder.com/200x200?text=Desk+1",
+      "image": "https://i.ibb.co/nBs63NX/image-6.jpg",
       "title": "Ergonomic Office Desk",
       "price": "$350",
       "rating": 4.6
     },
     {
-      "image": "https://via.placeholder.com/200x200?text=Bookshelf+1",
+      "image": "https://i.ibb.co/JxtYF8s/image-7.jpg",
       "title": "Spacious Bookshelf",
       "price": "$200",
       "rating": 4.4
     },
     {
       "productStatus": "hot",
-      "image": "https://via.placeholder.com/200x200?text=Coffee+Table+1",
+      "image": "https://i.ibb.co/d7ZnSnB/image-8.jpg",
       "title": "Glass Coffee Table",
       "price": "$180",
       "rating": 4.2
