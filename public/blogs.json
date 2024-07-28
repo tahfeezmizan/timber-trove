@@ -1,0 +1,23 @@
+[
+    {
+        "date": "5 June",
+        "categories": "Living Room",
+        "title": "Modern Sectional Sofa",
+        "shortDescription": "spacious stylish sectional sofa perfect for contemporary living rooms. Features comfortable seating design.",
+        "image": "https://i.ibb.co/2Mtjx4r/blog1.jpg"
+    },
+    {
+        "date": "12 July",
+        "categories": "Bedroom",
+        "title": "King Size Platform Bed",
+        "shortDescription": "Elegant king size platform bed with a sturdy frame and modern design. Provides excellent support aesthetics.",
+        "image": "https://i.ibb.co/DfCsJzC/blog2.jpg"
+    },
+    {
+        "date": "23 Aug",
+        "categories": "Dining Room",
+        "title": "Extendable Dining Table",
+        "shortDescription": "Versatile extendable dining table made from high-quality wood. Ideal for both small and large gatherings.",
+        "image": "https://i.ibb.co/tmFKC06/blog3.jpg"
+    }
+]

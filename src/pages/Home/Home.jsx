@@ -4,6 +4,7 @@ import LatestProduct from '../LatestProduct/LatestProduct';
 import HandPick from '../HandPick/HandPick';
 import Newsletter from '../Newsletter/Newsletter';
 import Kitchen from '../Kitchen/Kitchen';
+import OurBlog from '../OurBlog/OurBlog';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <HandPick></HandPick>
             <Newsletter></Newsletter>
             <Kitchen></Kitchen>
+            <OurBlog></OurBlog>
         </div>
     );
 };
