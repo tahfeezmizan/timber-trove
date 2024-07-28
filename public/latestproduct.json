@@ -1,0 +1,58 @@
+[
+    {
+      "productStatus": "hot",
+      "discount": "-10%",
+      "image": "https://via.placeholder.com/200x200?text=Chair+1",
+      "title": "Elegant Wooden Chair",
+      "price": "$150",
+      "rating": 4.5
+    },
+    {
+      "image": "https://via.placeholder.com/200x200?text=Sofa+1",
+      "title": "Modern Gray Sofa",
+      "price": "$800",
+      "rating": 4.7
+    },
+    {
+      "discount": "-10%",
+      "image": "https://via.placeholder.com/200x200?text=Table+1",
+      "title": "Classic Oak Table",
+      "price": "$300",
+      "rating": 4.3
+    },
+    {
+      "productStatus": "hot",
+      "image": "https://via.placeholder.com/200x200?text=Chair+2",
+      "title": "Comfortable Recliner Chair",
+      "price": "$220",
+      "rating": 4.8
+    },
+    {
+      "image": "https://via.placeholder.com/200x200?text=Bed+1",
+      "title": "King Size Bed",
+      "price": "$1200",
+      "rating": 4.9
+    },
+    {
+      "discount": "-10%",
+      "image": "https://via.placeholder.com/200x200?text=Desk+1",
+      "title": "Ergonomic Office Desk",
+      "price": "$350",
+      "rating": 4.6
+    },
+    {
+      "image": "https://via.placeholder.com/200x200?text=Bookshelf+1",
+      "title": "Spacious Bookshelf",
+      "price": "$200",
+      "rating": 4.4
+    },
+    {
+      "productStatus": "hot",
+      "image": "https://via.placeholder.com/200x200?text=Coffee+Table+1",
+      "title": "Glass Coffee Table",
+      "price": "$180",
+      "rating": 4.2
+    }
+    
+  ]
+  
