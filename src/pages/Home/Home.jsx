@@ -5,6 +5,8 @@ import HandPick from '../HandPick/HandPick';
 import Newsletter from '../Newsletter/Newsletter';
 import Kitchen from '../Kitchen/Kitchen';
 import OurBlog from '../OurBlog/OurBlog';
+import Feedback from '../Feedback/Feedback';
+import Brand from '../Brand/Brand';
 
 const Home = () => {
     return (
@@ -17,6 +19,8 @@ const Home = () => {
             <Newsletter></Newsletter>
             <Kitchen></Kitchen>
             <OurBlog></OurBlog>
+            <Feedback></Feedback>
+            <Brand></Brand>
         </div>
     );
 };
