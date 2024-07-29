@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { IoMdClose } from "react-icons/io";
-import { IoArrowUpSharp } from "react-icons/io5";
 import { RiMenu3Fill } from "react-icons/ri";
 import { NavLink } from "react-router-dom";
 import { RiShoppingBagLine } from "react-icons/ri";
@@ -10,13 +9,13 @@ const Navbar = () => {
 
     const links = <>
         <NavLink to='/' className="text-center">Home</NavLink>
-        <NavLink to='/' className="text-center">Shop</NavLink>
-        <NavLink to='/' className="text-center">Features</NavLink>
-        <NavLink to='/' className="text-center">Contact</NavLink>
+        <NavLink to='/shop' className="text-center">Shop</NavLink>
+        <NavLink to='/features' className="text-center">Features</NavLink>
+        <NavLink to='/contact' className="text-center">Contact</NavLink>
     </>
 
     return (
-        <div className="bg-PrimaryBg shadow-md md:shadow-none py-4 lg:py-8">
+        <div className="bg-PrimaryBg shadow-md md:shadow-none py-4 lg:py-8 relative z-50">
             <div className="container mx-auto px-4 flex justify-between items-center">
                 <NavLink to={'/'}>
                     <h1 className="text-4xl font-BebasNeue uppercase font-normal">Timber Trove</h1>
