@@ -7,6 +7,7 @@ import Kitchen from '../Kitchen/Kitchen';
 import OurBlog from '../OurBlog/OurBlog';
 import Feedback from '../Feedback/Feedback';
 import Brand from '../Brand/Brand';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
             <OurBlog></OurBlog>
             <Feedback></Feedback>
             <Brand></Brand>
+            <Footer></Footer>
         </div>
     );
 };
