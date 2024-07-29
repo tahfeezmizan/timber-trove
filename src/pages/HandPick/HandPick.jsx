@@ -43,7 +43,6 @@ const HandPick = () => {
                             </div>
                         </div>
                     </div>
-
                 </div>
 
 

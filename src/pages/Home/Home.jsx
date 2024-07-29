@@ -8,6 +8,7 @@ import OurBlog from '../OurBlog/OurBlog';
 import Feedback from '../Feedback/Feedback';
 import Brand from '../Brand/Brand';
 import Footer from '../Footer/Footer';
+import HotProducts from '../HotProducts/HotProducts';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <div className="slider relative">
                 <Banner />
             </div>
+            <HotProducts></HotProducts>
             <LatestProduct></LatestProduct>
             <HandPick></HandPick>
             <Newsletter></Newsletter>
